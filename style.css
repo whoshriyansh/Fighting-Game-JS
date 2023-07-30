@@ -1,0 +1,31 @@
+/* @keyframes zigzag {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10px) rotate(-5deg);
+  }
+  50% {
+    transform: translateX(-10px) rotate(5deg);
+  }
+  75% {
+    transform: translateX(10px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
+#game-container {
+  /* Add any additional styles for your game container here */
+  text-align: center;
+}
+
+#title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 48px;
+  animation: zigzag 2s linear infinite;
+  color: #796d83;
+  text-align: center;
+  margin-bottom: 20px;
+}
