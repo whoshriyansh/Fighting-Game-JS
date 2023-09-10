@@ -1,4 +1,4 @@
-# Fi
+
 # Katana Zero - JavaScript-Based Fighting Game
 
 
